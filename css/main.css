@@ -1,5 +1,6 @@
 body {
     background-color: #ffffff;
+    margin-top: 2%;
 }
 header,
 main {
@@ -29,6 +30,13 @@ header > img {
     padding-right: 10px;
     border-radius: 25px;
 }
+    nav > a:nth-child(1) {
+    margin: 0;
+    }
+    nav > a:hover {
+    background-color: burlywood;
+    transition: 0.8s;
+    }
 main > div {
     width: 50%;
     float: left;
@@ -38,6 +46,7 @@ main > div > h1 {
     font-weight: 100;
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-bottom: 0px;
+    margin-top: 95px;
     color: #1C2D33;
     line-height: 40px;
 }
@@ -61,6 +70,7 @@ main > div > p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     float: left;
     margin-bottom: 50px;
+    margin-top: 5px;
 }
 main > div > div {
     display: inline-block;
