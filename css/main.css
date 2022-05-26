@@ -59,8 +59,10 @@ main > div > h2 {
     margin-bottom: 5px;
     }
 main > div > hr {
-    border-radius: 20px;
-    border: 2px solid #6CBEDD;
+    border: none;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #6CBEDD;
     float: left;
     width: 150px;
 }
