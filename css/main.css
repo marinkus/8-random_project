@@ -3,65 +3,90 @@ body {
 }
 header,
 main {
-    width: 800px;
-    margin-left: calc((100% - 800px) / 2);
-    margin-right: calc((100% - 800px) / 2);
-    margin-bottom: 50px;
+    width: 1000px;
+    margin-left: calc((100% - 1000px) / 2);
+    margin-right: calc((100% - 1000px) / 2);
+    margin-bottom: 100px;
     display: inline-block;
-    background-color: aqua;
 }
 header > img {
     float: left;
-    height: 24px;
+    height: 20px;
 }
     nav {
     float: right;
-    margin-top: 4px;
+    margin-top: 3px;
 }
     nav > a {
     text-decoration: none;
     color: #1C2D33;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
     margin-left: 30px;
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 25px;
 }
 main > div {
-    width: 40%;
+    width: 50%;
     float: left;
 }
 main > div > h1 {
-    font-size: 60px;
-    font-weight: 400;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-bottom: 5px;
+    font-size: 50px;
+    font-weight: 100;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 0px;
     color: #1C2D33;
+    line-height: 40px;
 }
 main > div > h2 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 600;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-top: 5px;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 0px;
     color: #1C2D33;
+    margin-bottom: 5px;
     }
 main > div > hr {
     border-radius: 20px;
-    border: 2px solid #55337A;
+    border: 2px solid #6CBEDD;
     float: left;
-    width: 70px;
+    width: 150px;
 }
 main > div > p {
     color: #6E797D;
     font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     float: left;
+    margin-bottom: 50px;
 }
 main > div > div {
     display: inline-block;
 }
 main > div > div > a {
-    float: left;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: solid 2px #6CBEDD;
+    background-color: #6CBEDD;
+    color: #FAFDFE;
+    margin-right: 20px;
+}
+main > div > div > a:nth-of-type(2) {
+    border-color: #92B8C7;
+    background-color: #fff;
+    color: #242424;
+    margin: 0px;
+}
+main > img {
+    width: 50%;
+    float: right;
 }
