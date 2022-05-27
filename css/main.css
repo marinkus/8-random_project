@@ -1,24 +1,23 @@
-body {
+    body {
     background-color: #ffffff;
     margin-top: 2%;
 }
-header,
-main {
+    .container {
     width: 1000px;
     margin-left: calc((100% - 1000px) / 2);
     margin-right: calc((100% - 1000px) / 2);
     margin-bottom: 100px;
     display: inline-block;
 }
-header > img {
+    .logo {
     float: left;
     height: 20px;
 }
-    nav {
+    .menu {
     float: right;
     margin-top: 3px;
 }
-    nav > a {
+    .menu-links {
     text-decoration: none;
     color: #1C2D33;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -30,18 +29,18 @@ header > img {
     padding-right: 10px;
     border-radius: 25px;
 }
-    nav > a:nth-child(1) {
+    .menu-links:nth-child(1) {
     margin: 0;
     }
-    nav > a:hover {
+    .menu-links:hover {
     background-color: burlywood;
     transition: 0.8s;
     }
-main > div {
+    .left-column {
     width: 50%;
     float: left;
 }
-main > div > h1 {
+    .left-column > h1 {
     font-size: 50px;
     font-weight: 100;
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -50,7 +49,7 @@ main > div > h1 {
     color: #1C2D33;
     line-height: 40px;
 }
-main > div > h2 {
+    .left-column > h2 {
     font-size: 50px;
     font-weight: 600;
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -58,7 +57,7 @@ main > div > h2 {
     color: #1C2D33;
     margin-bottom: 5px;
     }
-main > div > hr {
+    .left-column > hr {
     border: none;
     height: 4px;
     border-radius: 2px;
@@ -66,7 +65,7 @@ main > div > hr {
     float: left;
     width: 150px;
 }
-main > div > p {
+    .left-column > p {
     color: #6E797D;
     font-size: 18px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -74,10 +73,10 @@ main > div > p {
     margin-bottom: 50px;
     margin-top: 5px;
 }
-main > div > div {
+    .buttons {
     display: inline-block;
 }
-main > div > div > a {
+    .btn {
     display: inline-block;
     text-decoration: none;
     font-size: 14px;
@@ -92,13 +91,13 @@ main > div > div > a {
     color: #FAFDFE;
     margin-right: 20px;
 }
-main > div > div > a:nth-of-type(2) {
+    .btn:nth-of-type(2) {
     border-color: #92B8C7;
     background-color: #fff;
     color: #242424;
     margin: 0px;
 }
-main > img {
+    .right-column {
     width: 50%;
     float: right;
 }
